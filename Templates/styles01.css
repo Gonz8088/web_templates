@@ -1,0 +1,19 @@
+header{
+  height: 100px;
+  background-color: red;
+}
+
+nav{
+  height: 50px;
+  background-color: orange;
+}
+
+main{
+  height: 700px;
+  background-color: blue;
+}
+
+footer{
+  height: 100px;
+  background-color: red;
+}
