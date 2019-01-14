@@ -10,10 +10,13 @@ nav{
 
 .flex-container {
   display: flex;
+  height: 200px;
   flex-direction: row;      /* row-reverse; column; column-reverse */
   flex-wrap: wrap;          /* nowrap (default); wrap-reverse */
   /* flex-flow: row wrap; (combines flex-direction & flex-wrap) */
-  justify-content: center;  /* left; right */
+  justify-content: space-around;  /* flex-start (default); flex-end; left; right; space-around; space-between */
+  align-items: space-around; /* flex-start; flex-end; stretch (default); baseline */
+  /*align-content: space-around; /* flex-start; flex-end; space-around; space-between; stretch (default); center*/
   background-color: DodgerBlue;
 }
 
