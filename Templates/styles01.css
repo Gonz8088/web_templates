@@ -8,9 +8,22 @@ nav{
   background-color: orange;
 }
 
-main{
-  height: 700px;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
   background-color: blue;
+  justify-content: space-around;  /* flex-start (default); flex-end; left; right; space-around; space-between */
+  align-items: space-around;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-grow: 1;
 }
 
 footer{

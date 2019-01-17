@@ -1,0 +1,35 @@
+header{
+  height: 100px;
+  background-color: red;
+}
+
+nav{
+  height: 50px;
+  background-color: orange;
+}
+
+.flex-container {
+  display: flex;
+  /* height: 200px;*/
+  flex-direction: row;      /* row-reverse; column; column-reverse */
+  flex-wrap: wrap;          /* nowrap (default); wrap-reverse */
+  /* flex-flow: row wrap; (combines flex-direction & flex-wrap) */
+  justify-content: space-around;  /* flex-start (default); flex-end; left; right; space-around; space-between */
+  align-items: space-around; /* flex-start; flex-end; stretch (default); baseline */
+  /*align-content: space-around; /* flex-start; flex-end; space-around; space-between; stretch (default); center*/
+  background-color: DodgerBlue;
+  flex-grow: 1;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-grow: 1;
+}
+
+footer{
+  height: 100px;
+  background-color: red;
+}
